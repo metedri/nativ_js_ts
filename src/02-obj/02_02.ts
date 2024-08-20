@@ -1,6 +1,7 @@
 export type CityType = {
     title: string
     houses: {
+        id?: number,
         buildedAt: number;
         repaired: boolean;
         address: { number: number; street: { title: string } }
